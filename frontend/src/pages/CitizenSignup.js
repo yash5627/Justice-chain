@@ -133,7 +133,7 @@ const CitizenSignup = () => {
                 required
                 value={formData.fullName}
                 onChange={handleInputChange}
-                className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter Full Name"
               />
             </div>
@@ -146,7 +146,7 @@ const CitizenSignup = () => {
                 required
                 value={formData.email}
                 onChange={handleInputChange}
-                className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter Email"
               />
             </div>
@@ -159,7 +159,7 @@ const CitizenSignup = () => {
                 required
                 value={formData.phone}
                 onChange={handleInputChange}
-                className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter 10-digit Phone"
               />
             </div>
@@ -172,7 +172,7 @@ const CitizenSignup = () => {
                 required
                 value={formData.password}
                 onChange={handleInputChange}
-                className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Password (min 6 characters)"
               />
             </div>
@@ -185,7 +185,7 @@ const CitizenSignup = () => {
                 required
                 value={formData.confirmPassword}
                 onChange={handleInputChange}
-                className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Confirm Password"
               />
             </div>
